@@ -1109,7 +1109,7 @@ local function funcShopExecuteOverride(botBrain)
 
 	return bOldShopping
 end
-object.ShopExecuteOld = behaviorLib.ShopExecute
+object.ShopExecuteOld = object.shoppingLib.ShopExecute
 behaviorLib.ShopBehavior["Execute"] = funcShopExecuteOverride
 
 
